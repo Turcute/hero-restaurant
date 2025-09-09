@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background: linear-gradient(225deg, #A54343 0%, #E73535 100%);
+  width: 1662px;
+  height: 1024px;
+  margin: 0 auto;
+}
+
+.heroImg{
+  width: 1125px;
+  height: 891px;
+  float: right;
+  padding-top: 133px;
+  position: relative;
+}
+
+.heroContent{
+  padding-top: 223px;
+  padding-bottom: 203px;
+  padding-left: 165px;
+}
+
+.heroH1{
+  position: absolute;
+  margin: 0;
+  width: 517px;
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 700; 
+  font-size: 140px;
+  line-height: 127px;
+  letter-spacing: -1.58px;
+  color: white;
+
+}
+
+.heroP{
+  width: 510px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  color: white;
+  margin: 0;
+  padding-block: 300px;
+  z-index: 2;
+  position: absolute;
+}
+
+ 
+.button-container {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-top: 250px;
+  vertical-align: middle;
+  background-color: transparent;
+  color: white;
+  width: 294px;
+  height: 98px;
+  position: relative;
+  margin-left: 165px;
+}
+
+
+.circle {
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  background-color: #FFC400;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 95px;
+  font-size: 48px;
+  color: black;
+  vertical-align: middle;
+  margin-right: 30px;
+  position: absolute;
+  left: -10px;
+}
+
+.price {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+
+.heroIcon{
+  margin-top: 400px;
+  position: absolute;
+  left: 170px;
+}
+
+.iconP{
+  display: inline-block;
+  position: absolute;
+  top: 800px;
+  left: 250px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0px;
+
+}
+
+
+.iconP2{
+  position: absolute;
+  display: inline;
+  top: 820px;
+  left: 250px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: white;
+}
